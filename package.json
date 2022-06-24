@@ -1,0 +1,12 @@
+{
+  "name": "parse-this-color",
+  "version": "1.0.0",
+  "description": "### RGB HEXADECIMAL",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "Nadhif Fuadi <nadhiffuadi@gmail.com>",
+  "license": "MIT"
+}
