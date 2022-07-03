@@ -128,10 +128,10 @@ A valid input will be parsed and returned an object with these properties:
 
 ```js
 {
-  type: 'rgb', //Type of the inputted color model
+  type: 'rgb',  //Type of the inputted color model
   values: [255, 255, 255], //The corresponding color values. Hue with grad|rad|turn units will be converted to degrees
   alpha: 1, //The alpha of the color, range from 0-1
-  brightness: 0.5 //The relative brightness of the color, normalized to 0 for darkest black and 1 for lightest white
+  brightness: 0.5 //The relative brightness of any point in a colorspace, normalized to 0 for darkest black and 1 for lightest white
 }
 ```
 

@@ -2,11 +2,18 @@
   "name": "parse-this-color",
   "version": "1.0.0",
   "description": "### RGB HEXADECIMAL",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node ./test/test.js",
+    "dev": "node ./src/index.js"
   },
   "keywords": [],
   "author": "Nadhif Fuadi <nadhiffuadi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "css-color-name": "^1.1.0"
+  },
+  "devDependencies": {
+    "tape": "^5.5.3"
+  }
 }
